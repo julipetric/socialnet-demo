@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "imajine-socialnet-julipetric",
-    "slug": "imajine-socialnet-julipetric",
+    "slug": "socialnet-julipetric",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.julipetric.socialnetjulipetric"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "970095f9-ee45-43b2-8d81-7386dfa7f015"
+      }
+    },
+    "owner": "julipetric"
   }
 }
