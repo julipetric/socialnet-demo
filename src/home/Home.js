@@ -20,7 +20,7 @@ function Home() {
         <Text style={styles.titleLabel}>Connect with your friends</Text>
         <Text style={styles.description}>Invite your friends and grow your followers!</Text>
         <Image source={InviteFriends} resizeMode="contain" style={{ flex: 1, maxWidth: '100%' }} />
-        <CustomButton title="Invite firends" onPress={onInvitePress} />
+        <CustomButton title="Invite friends" onPress={onInvitePress} />
       </View>
     </View>
   );
